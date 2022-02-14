@@ -3,7 +3,6 @@
 * {
     padding: 0;
     margin: 0;
-    /*outline: 1px dotted red;*/
     font-family: 'Manrope', sans-serif;
     color: #12130F;
 }
@@ -326,11 +325,6 @@ and (max-device-width: 768px) {
 @media only screen
 and (min-device-width: 1200px)
 and (-webkit-min-device-pixel-ratio: 1) {
-    * {
-        /*Remove this entire section after*/
-        outline: 1px dotted red;
-    }
-
     p {
         font-size: 16px;
         color: rgb(18, 19, 15);
